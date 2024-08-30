@@ -1,0 +1,26 @@
+.parentScroll{
+    overflow: auto; /* This enables scrolling */
+    width: 100%; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    border: 1px solid #ccc; 
+    display: flex;
+    scrollbar-width: none; /* For Firefox */
+            -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+    .parentScroll::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and Opera */
+        }
+.childScroll{
+    width: 100%;
+    margin: 5px; /* Optional: space between child divs */
+    background-color: lightblue; /* Optional: just to visualize the child divs */
+min-height: 100vh;
+flex-wrap: wrap;
+}
+.prdctImage{
+    margin: 0 auto;
+    padding: 4px 0 0 0;
+}

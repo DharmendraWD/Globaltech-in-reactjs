@@ -1,0 +1,10 @@
+
+
+/* src/css/Home.css */
+.introVdo {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+/* Ensure other necessary styles */

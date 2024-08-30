@@ -1,0 +1,13 @@
+
+.Hero1Child{
+    padding-bottom: 80px;
+}
+.leading-8 {
+    text-align: justify;
+}
+
+@media (max-width: 800px) {
+   .Hero1Child{
+    padding-bottom: 2px;
+   }
+}

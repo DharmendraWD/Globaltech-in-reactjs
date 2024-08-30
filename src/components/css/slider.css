@@ -1,0 +1,15 @@
+.axis-horizontal li{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media (max-width: 800px) {
+.sliderdesc{
+    width: 100% !important;
+    order: 2;
+}
+.sliderimg{
+    order: 1;
+}
+}

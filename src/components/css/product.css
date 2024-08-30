@@ -1,0 +1,21 @@
+.productsbtn{
+    font-size: 1rem;
+        line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        min-width: 9.375rem;
+        padding: 0 .2rem;
+        background-color: rgb(224, 93, 45);
+        border-radius: 0.25rem;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
